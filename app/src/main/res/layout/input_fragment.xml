@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DFDCDC">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Input some values: " />
+
+    <EditText
+        android:id="@+id/A"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="A value"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/B"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="B value"
+        android:inputType="numberDecimal" />
+
+
+    <Button
+        android:id="@+id/plusButton"
+        android:layout_width="200dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:text="+" />
+
+    <Button
+        android:id="@+id/minusButton"
+        android:layout_width="200dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:text="-" />
+
+    <Button
+        android:id="@+id/multButton"
+        android:layout_width="200dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:text="*" />
+
+    <Button
+        android:id="@+id/divButton"
+        android:layout_width="200dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:text="/" />
+</LinearLayout>
